@@ -3525,6 +3525,7 @@ namespace MySFformat
 
 
             TextBox tJs = new TextBox();
+            tJs.MaxLength = 2147483647;
             tJs.Size = new System.Drawing.Size(400, 300);
             tJs.Multiline = true;
             tJs.Location = new System.Drawing.Point(10, currentY);
